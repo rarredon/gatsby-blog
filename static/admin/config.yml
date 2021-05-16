@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: rarredon/gatsby-blog
+  branch: main
 media_folder: "static/images/uploads"
 collections:
   - name: 'blog'
