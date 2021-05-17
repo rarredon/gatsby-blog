@@ -16,15 +16,16 @@ const Bio = () => {
         siteMetadata {
           author {
             name
-            summary
+            descriptor
+            location
           }
           social {
-            twitter
+            linkedIn
           }
         }
       }
     }
-  `)
+  `);
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
@@ -44,15 +45,15 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          I'm <strong>{author.name}</strong>. I'm a {author?.descriptor || null} currently based in {author?.location}.
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+          <a href={`https://linkedin.com/in/${social?.linkedIn || ``}`}>
+            Let's connect on LinkedIn
           </a>
         </p>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;
