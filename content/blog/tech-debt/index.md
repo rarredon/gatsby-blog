@@ -1,7 +1,7 @@
 ---
 title: Tech Debt
 date: 2023-07-08T12:27:21.899Z
-description: The case to be made for Tech Lag
+description: The case to be made for "Tech Lag"
 ---
 I listened to an interesting podcast which argued that tech debt is a
 bit of a misnomer, and that perhaps a better analogy to describe tech
