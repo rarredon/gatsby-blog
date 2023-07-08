@@ -14,6 +14,9 @@ const HomeIndex = ({ data, location }) => {
       <h1>Hello Internet</h1>
       <Bio />
       <div>
+	<p>Perhaps you're here to view my <a href="../../static/resume.pdf">resume</a>.</p>
+      </div>
+      <div>
         <p>While you're here, check out the <a href="blog/">blog</a>.</p>
       </div>
     </Layout>
