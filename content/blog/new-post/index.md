@@ -1,6 +1,6 @@
 ---
-title: New post!
+title: Hello World
 date: 2021-05-16T20:22:21.899Z
-description: What's up
+description: First post on my blog!
 ---
-Hey this is my blog post
+That's all.
